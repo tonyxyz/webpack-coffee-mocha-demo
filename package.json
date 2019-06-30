@@ -1,0 +1,42 @@
+{
+  "name": "webpack-coffee-mocha-demo",
+  "version": "1.0.0",
+  "description": "Demonstrates how to integrate coffeescript, mocha and webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mochapack --webpack-config webpack.config-test.js \"src/**/*.test.*\"",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyxyz/webpack-coffee-mocha-demo.git"
+  },
+  "keywords": [
+    "mocha",
+    "coffeescript",
+    "webpack",
+    "demo"
+  ],
+  "author": "Tony Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyxyz/webpack-coffee-mocha-demo/issues"
+  },
+  "homepage": "https://github.com/tonyxyz/webpack-coffee-mocha-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.1.4",
+    "mocha-loader": "^2.0.1",
+    "mochapack": "^1.1.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@webpack-cli/init": "^0.2.2"
+  }
+}
